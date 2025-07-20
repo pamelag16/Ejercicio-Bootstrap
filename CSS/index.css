@@ -1,0 +1,44 @@
+div.carousel-item {
+    max-height: 300px;
+}
+
+
+div.card{
+    text-align: center;
+    width: 200px;
+    
+}
+
+html{
+    height: 180vh;
+}
+
+div.carousel-caption{
+    position: absolute;
+    color: rgba(109, 30, 30, 0.404);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:4vw;
+    
+    padding: 150px;
+    
+}
+
+
+@media(max-width: 768px){
+    div.carousel-caption{
+        font-size: 1.5em;
+        
+    }
+    div.card img{
+        width: 80%;
+        margin-left: 2em;
+        margin-top: 1em;
+    }
+    div.card-body{
+        width: 80%;
+        margin-left: 2em;
+    }
+    div#lista{
+        padding: 10%;
+    }
+}
